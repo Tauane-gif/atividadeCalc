@@ -5,7 +5,7 @@ let teclado = require('prompt-sync')();
 let continuar : boolean = true;
 
 while (continuar){ 
-    let operacoes : string = teclado ('Qual operação você quer calcular (-,+,/,*) ou digite "sair" para encerar: '); 
+    let operacoes : string = teclado ('Qual operação você quer calcular (-,+,/,*) ou digite "0" para encerar: '); 
 }
 console.log('===== CALCULADORA =====');
 console.log('      OPERAÇÕES        '); 
@@ -13,7 +13,7 @@ console.log('      SUBTRAÇÃO (-)       ');
 console.log('       ADIÇÃO   (+)       ');
 console.log('       DIVISAO  (/)       ');
 console.log('     MULTIPLICAÇÃO (*)     ');
-console.log(' =====  SAIR (s)  =====    '); 
+console.log(' =====  SAIR (0)  =====    '); 
 
 let opcaoDigitada = teclado(`Digite uma opção: `)
 
